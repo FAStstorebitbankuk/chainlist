@@ -290,6 +290,11 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.alchemy,
       },
+      { 
+        url: "https://virtual.mainnet.rpc.tenderly.co/f06c7662-a76b-4708-ba53-2954cf6011d0",
+        tracking: "yes",
+        trackingDetails: privacyStatement.tenderly,
+      },
       {
         url: "https://eth.api.onfinality.io/public",
         tracking: "limited",
@@ -300,6 +305,7 @@ export const extraRpcs = {
         tracking: "yes",
         trackingDetails: privacyStatement.gashawk,
       },
+      //"https://virtual.mainnet.rpc.tenderly.co/28fd9014-c991-4637-bf7d-4377aee42282",
       //"http://127.0.0.1:8545",
       //"https://yolo-intensive-paper.discover.quiknode.pro/45cad3065a05ccb632980a7ee67dd4cbb470ffbd/",
       //"https://api.mycryptoapi.com/eth",
@@ -749,6 +755,11 @@ export const extraRpcs = {
         trackingDetails: privacyStatement["48Club"],
       },
       {
+        url: "https://virtual.mainnet.rpc.tenderly.co/f06c7662-a76b-4708-ba53-2954cf6011d0",
+        tracking: "yes",
+        trackingDetails: privacyStatement.tenderly,
+      },
+      {
         url: "https://koge-rpc-bsc.48.club",
         tracking: "limited",
         trackingDetails: privacyStatement["48Club"],
@@ -1081,6 +1092,11 @@ export const extraRpcs = {
         url: "https://rpc.ankr.com/polygon",
         tracking: "limited",
         trackingDetails: privacyStatement.ankr,
+      },
+      {
+        url:"https://virtual.mainnet.rpc.tenderly.co/f06c7662-a76b-4708-ba53-2954cf6011d0",
+        tracking:"yes",
+        trackingDetails: privacyStatement.tenderly,
       },
       {
         url: "https://endpoints.omniatech.io/v1/matic/mainnet/public",
